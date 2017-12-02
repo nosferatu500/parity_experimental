@@ -1,0 +1,13 @@
+{
+    "constant":true,
+    "inputs":[],
+    "name":"getValidators",
+    "outputs":[
+        {
+            "name":"",
+            "type":"address[]"
+        }
+    ],
+    "payable":false,
+    "type":"function"
+}
