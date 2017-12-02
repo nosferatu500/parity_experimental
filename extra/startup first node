@@ -1,0 +1,1 @@
+parity --chain spec.json -d ./validator0 --force-sealing --engine-signer "0xb40fd7dfdd4e4abd79472c76f5515e23f463f90b" --port 30300 --jsonrpc-port 8540 --ui-port 8180 --ws-port 8546 --jsonrpc-apis web3,eth,net,personal,parity,parity_set,traces,rpc,parity_accounts --password "node.pwds"

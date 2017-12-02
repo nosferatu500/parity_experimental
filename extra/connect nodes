@@ -1,0 +1,6 @@
+curl --data '{"jsonrpc":"2.0","method":"parity_enode","params":[],"id":0}' -H "Content-Type: application/json" -X POST localhost:8541
+
+
+// replace enode
+
+curl --data '{"jsonrpc":"2.0","method":"parity_addReservedPeer","params":["enode://bfe2199fb2af6b6cba89fb0830ae07a7b65c12475eb33f278035892ecc3d516c69f653f6ae9adb6de4f135fe22d6c541734ed04993468b57bfeaeec895540f29@192.168.0.5:30301"],"id":0}' -H "Content-Type: application/json" -X POST localhost:8540
